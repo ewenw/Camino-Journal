@@ -1,0 +1,62 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+.pb-5, .py-5 {
+    padding-bottom: 8rem!important;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.brightness img:hover {
+    opacity: .5;
+}
+.popover{
+        max-width:600px;
+    }
+.popover-title {
+    color: black;
+    font-size: 18px;
+    background: white;
+}
+.popover-content {
+    color: black;
+    font-size: 13px;
+    background: white;
+}
+
+.collapse {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 1%;
+    padding: 25px;
+}
+
+.collapse:hover, .collapse:active, .collapse:focus {
+    background-color: rgba(255, 255, 255, 0.93);
+    border-radius: 1%;
+}
+
+.lead {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
